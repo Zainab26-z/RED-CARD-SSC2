@@ -1,68 +1,105 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.box1{
-    width: 100%;
-    background-color: rgb(158, 49, 49);
-    color: #fff;
-    height: 185vh;
-    font-size: 30px;
-    padding: 120px;
-    margin-bottom: 5rem;
-    text-align: justify;
-    clip-path: polygon(0 0, 100% 0, 100% 86%, 85% 100%, 0 100%);
-    
-    
-}
-    
-.mainlogo{
-    margin-bottom: 2rem;}
-  
-.Content{
- margin-bottom: 2rem; 
- text-align: justify;
-
+.box1 {
+  width: 100%;
+  background-color: rgb(158, 49, 49);
+  color: #fff;
+  font-size: 27px;
+  height: 155vh;
+  letter-spacing: 1px;
+  /* padding: 130px; */
+  margin-bottom: 5.5rem;
+  text-align: justify;
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 88% 100%, 0 100%);
 }
 
-.white{
-    font-size: 110px; 
-    text-shadow: 2px 2px 0px rgb(245, 237, 237);
-    font-weight: bold;
+.mainlogo {
+  margin-bottom: 1rem;
+  padding-top: 60px;
+  padding-left: 130px;
 }
-.black{ color: black; font-weight: bold; text-shadow: 2px 1px 0px rgb(12, 11, 11); font-size: 50px;}
 
-.best-clubs-section{  padding: 80px; }
-.header{display: flex; align-items: center; gap: 15px; margin-bottom: 1rem;}
-.header h1{font-weight: bold;font-size: 60px; text-shadow: 1px 0 rgb(19, 18, 18), -1px 0 rgb(20, 20, 20), 0 1px rgb(15, 15, 15), 0 -1px rgb(19, 18, 18)}
-.clubs img{width: 70%;}
-.clubs p{font-size: 25px; font-weight: bold; word-spacing: 1px;}
+.Content {
+  margin-bottom: 2.1rem;
+  padding-left: 130px;
+  text-align: justify;
+}
 
-.clubs{text-align: center; font-size: 15px; font-weight: 900; text-shadow: 1px 1px 0px rgb(12, 11, 11)}
-.clubs-container{display: flex; gap: 20px; padding-top: 30px;}
+.Content1 {
+  padding-left: 130px;
+  padding-right: 110px;
+}
 
-.header img{width:40px ; }
+.white {
+  font-size: 112px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 5px 0px 0px rgb(245, 237, 237);
+  font-family: "Archivo Black", sans-serif;
+}
+.black {
+  color: black;
+  font-size: 47px;
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 650;
+  text-shadow: 2px 0px 0px rgb(14, 13, 13);
+}
+
+.best-clubs-section {
+  padding-left: 115px;
+  padding-bottom: 120px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+.header h1 {
+  font-size: 70px;
+  font-family: "Anton", sans-serif;
+  text-shadow: 2px 0px 0px rgb(14, 13, 13);
+  letter-spacing: 6px;
+  word-spacing: 5px;
+  font-family: "Archivo Black", sans-serif;
+}
+.clubs img {
+  width: 64%;
+  margin-bottom: 1rem;
+}
+.clubs p {
+  font-size: 27px;
+  font-weight: 900;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.clubs {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 900;
+}
+.clubs-container {
+  display: flex;
+  padding-top: 30px;
+}
+
+.header img {
+  width: 50px;
+}
 
 .footer p {
-    background-color: #94262e;
-    color: white;
-    padding-left: 120px;
-    font-size: 55px;
-    font-weight: bold;
-    padding: 120px;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 85% 100%, 0 100%);
-    text-shadow: 1px 0 rgb(252, 246, 246), -1px 0 rgb(248, 240, 240), 0 1px rgb(243, 236, 236), 0 -1px rgb(233, 228, 228);
+  background-color: #94262e;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  text-shadow: 2px 0px 0px rgb(245, 241, 241);
+  padding-left: 113px;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 120px;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 87% 100%, 0 100%);
 }
-
-
-
-
-
-
-
-   
-    
-
-    
